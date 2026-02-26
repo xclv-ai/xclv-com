@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Roobert', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  padding: 2rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+.portrait {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-family: 'Roobert', sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-family: 'Roobert', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  line-height: 1.4;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.contact {
+  font-family: 'Roobert', sans-serif;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+.contact a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.contact a:hover,
+.contact a:focus {
+  border-color: #1a1a1a;
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+
+  .portrait {
+    width: 96px;
+    height: 96px;
+  }
+}
