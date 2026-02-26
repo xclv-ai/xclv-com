@@ -96,23 +96,20 @@
   <link rel="icon" href="assets/img/Konovalov_Portrait_Actual_circle.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/img/Konovalov_Portrait_Actual_circle.png">
 
-  <!-- Font preloads (WOFF2) -->
-  <link rel="preload" href="assets/fonts/RoobertSemiBold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="assets/fonts/RoobertRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- Font preload (single variable WOFF2) -->
+  <link rel="preload" href="assets/fonts/JetBrainsMono.woff2" as="font" type="font/woff2" crossorigin>
 
   <!-- Inlined styles -->
   <style>
-    @font-face{font-family:'Roobert';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/RoobertRegular.woff2') format('woff2'),url('assets/fonts/RoobertRegular.woff') format('woff')}
-    @font-face{font-family:'Roobert';font-style:normal;font-weight:200;font-display:swap;src:url('assets/fonts/RoobertLight.woff2') format('woff2'),url('assets/fonts/RoobertLight.woff') format('woff')}
-    @font-face{font-family:'Roobert';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/RoobertSemiBold.woff2') format('woff2'),url('assets/fonts/RoobertSemiBold.woff') format('woff')}
+    @font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:100 800;font-display:swap;src:url('assets/fonts/JetBrainsMono.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{font-size:16px;-webkit-text-size-adjust:100%}
-    body{font-family:'Roobert',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1a1a1a;background:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center}
+    body{font-family:'JetBrains Mono',monospace;color:#1a1a1a;background:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center}
     main{padding:2rem;text-align:center;max-width:600px}
     .portrait{width:120px;height:120px;border-radius:50%;margin-bottom:1.5rem}
-    h1{font-weight:600;font-size:clamp(1.5rem,4vw,2.25rem);line-height:1.2;margin-bottom:.5rem}
-    .tagline{font-weight:400;font-size:clamp(1rem,2.5vw,1.25rem);line-height:1.4;color:#555;margin-bottom:1.5rem}
-    .contact{font-weight:200;font-size:.9rem}
+    h1{font-weight:600;font-size:clamp(1.4rem,3.5vw,2rem);line-height:1.3;margin-bottom:.5rem;letter-spacing:-.02em}
+    .tagline{font-weight:400;font-size:clamp(.95rem,2.2vw,1.15rem);line-height:1.4;color:#555;margin-bottom:1.5rem}
+    .contact{font-weight:300;font-size:.85rem}
     .contact a{color:#1a1a1a;text-decoration:none;border-bottom:1px solid #ccc;transition:border-color .2s}
     .contact a:hover,.contact a:focus{border-color:#1a1a1a}
     @media(max-width:480px){main{padding:1.5rem 1rem}.portrait{width:96px;height:96px}}
