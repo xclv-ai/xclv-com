@@ -9,7 +9,7 @@
   <!-- SEO -->
   <meta name="description" content="XCLV invests in visionary geniuses when nobody else will. Founded by V. Konovalov.">
   <meta name="author" content="V. Konovalov">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <link rel="canonical" href="https://xclv-ai.github.io/xclv-com/">
 
   <!-- Open Graph -->
@@ -20,29 +20,75 @@
   <meta property="og:description" content="Investing in visionary geniuses when nobody else will.">
   <meta property="og:url" content="https://xclv-ai.github.io/xclv-com/">
   <meta property="og:image" content="https://xclv-ai.github.io/xclv-com/assets/img/Konovalov_Portrait_Actual_circle.png">
-  <meta property="og:image:alt" content="V. Konovalov portrait">
+  <meta property="og:image:alt" content="V. Konovalov — founder of XCLV">
+  <meta property="og:image:width" content="255">
+  <meta property="og:image:height" content="255">
+  <meta property="og:image:type" content="image/png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="XCLV — Investing in Visionary Geniuses">
   <meta name="twitter:description" content="Investing in visionary geniuses when nobody else will.">
   <meta name="twitter:image" content="https://xclv-ai.github.io/xclv-com/assets/img/Konovalov_Portrait_Actual_circle.png">
-  <meta name="twitter:image:alt" content="V. Konovalov portrait">
+  <meta name="twitter:image:alt" content="V. Konovalov — founder of XCLV">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "XCLV",
-    "url": "https://xclv-ai.github.io/xclv-com/",
-    "description": "Investing in visionary geniuses when nobody else will.",
-    "founder": {
-      "@type": "Person",
-      "name": "V. Konovalov",
-      "email": "ceo@xclv.com",
-      "image": "https://xclv-ai.github.io/xclv-com/assets/img/Konovalov_Portrait_Actual_circle.png"
-    }
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://xclv-ai.github.io/xclv-com/#organization",
+        "name": "XCLV",
+        "url": "https://xclv-ai.github.io/xclv-com/",
+        "description": "XCLV invests in visionary geniuses when nobody else will.",
+        "slogan": "Investing in Visionary Geniuses. When nobody else.",
+        "founder": { "@id": "https://xclv-ai.github.io/xclv-com/#founder" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "ceo@xclv.com",
+          "contactType": "executive",
+          "availableLanguage": "English"
+        },
+        "logo": "https://xclv-ai.github.io/xclv-com/assets/img/Konovalov_Portrait_Actual_circle.png",
+        "knowsAbout": ["venture capital", "early-stage investing", "visionary founders", "technology investment"],
+        "sameAs": []
+      },
+      {
+        "@type": "Person",
+        "@id": "https://xclv-ai.github.io/xclv-com/#founder",
+        "name": "V. Konovalov",
+        "email": "ceo@xclv.com",
+        "jobTitle": "Founder & CEO",
+        "image": "https://xclv-ai.github.io/xclv-com/assets/img/Konovalov_Portrait_Actual_circle.png",
+        "worksFor": { "@id": "https://xclv-ai.github.io/xclv-com/#organization" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://xclv-ai.github.io/xclv-com/#website",
+        "url": "https://xclv-ai.github.io/xclv-com/",
+        "name": "XCLV",
+        "publisher": { "@id": "https://xclv-ai.github.io/xclv-com/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://xclv-ai.github.io/xclv-com/#webpage",
+        "url": "https://xclv-ai.github.io/xclv-com/",
+        "name": "XCLV — Investing in Visionary Geniuses",
+        "description": "XCLV invests in visionary geniuses when nobody else will. Founded by V. Konovalov.",
+        "isPartOf": { "@id": "https://xclv-ai.github.io/xclv-com/#website" },
+        "about": { "@id": "https://xclv-ai.github.io/xclv-com/#organization" },
+        "inLanguage": "en-US",
+        "datePublished": "2025-01-01",
+        "dateModified": "2026-02-26",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["h1", ".tagline"]
+        }
+      }
+    ]
   }
   </script>
 
@@ -50,24 +96,47 @@
   <link rel="icon" href="assets/img/Konovalov_Portrait_Actual_circle.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/img/Konovalov_Portrait_Actual_circle.png">
 
-  <!-- Fonts & Styles -->
-  <link rel="preload" href="assets/fonts/RoobertSemiBold.woff" as="font" type="font/woff" crossorigin>
-  <link rel="preload" href="assets/fonts/RoobertRegular.woff" as="font" type="font/woff" crossorigin>
-  <link href="assets/css/font.css" rel="stylesheet">
-  <link href="assets/css/xclv.css" rel="stylesheet">
+  <!-- Font preloads (WOFF2) -->
+  <link rel="preload" href="assets/fonts/RoobertSemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/RoobertRegular.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- Inlined styles -->
+  <style>
+    @font-face{font-family:'Roobert';font-style:normal;font-weight:400;font-display:swap;src:url('assets/fonts/RoobertRegular.woff2') format('woff2'),url('assets/fonts/RoobertRegular.woff') format('woff')}
+    @font-face{font-family:'Roobert';font-style:normal;font-weight:200;font-display:swap;src:url('assets/fonts/RoobertLight.woff2') format('woff2'),url('assets/fonts/RoobertLight.woff') format('woff')}
+    @font-face{font-family:'Roobert';font-style:normal;font-weight:600;font-display:swap;src:url('assets/fonts/RoobertSemiBold.woff2') format('woff2'),url('assets/fonts/RoobertSemiBold.woff') format('woff')}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{font-size:16px;-webkit-text-size-adjust:100%}
+    body{font-family:'Roobert',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1a1a1a;background:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center}
+    main{padding:2rem;text-align:center;max-width:600px}
+    .portrait{width:120px;height:120px;border-radius:50%;margin-bottom:1.5rem}
+    h1{font-weight:600;font-size:clamp(1.5rem,4vw,2.25rem);line-height:1.2;margin-bottom:.5rem}
+    .tagline{font-weight:400;font-size:clamp(1rem,2.5vw,1.25rem);line-height:1.4;color:#555;margin-bottom:1.5rem}
+    .contact{font-weight:200;font-size:.9rem}
+    .contact a{color:#1a1a1a;text-decoration:none;border-bottom:1px solid #ccc;transition:border-color .2s}
+    .contact a:hover,.contact a:focus{border-color:#1a1a1a}
+    @media(max-width:480px){main{padding:1.5rem 1rem}.portrait{width:96px;height:96px}}
+  </style>
 </head>
 <body>
   <main>
-    <img
-      class="portrait"
-      src="assets/img/Konovalov_Portrait_Actual_circle.png"
-      width="120"
-      height="120"
-      alt="V. Konovalov — founder of XCLV"
-    >
-    <h1>Investing in Visionary Geniuses.</h1>
-    <p class="tagline">When nobody else</p>
-    <p class="contact"><a href="mailto:ceo@xclv.com">ceo@xclv.com</a></p>
+    <article>
+      <header>
+        <img
+          class="portrait"
+          src="assets/img/Konovalov_Portrait_Actual_circle.png"
+          width="120"
+          height="120"
+          alt="V. Konovalov — founder of XCLV"
+          fetchpriority="high"
+        >
+        <h1>Investing in Visionary Geniuses.</h1>
+        <p class="tagline">When nobody else</p>
+      </header>
+      <footer>
+        <p class="contact"><a href="mailto:ceo@xclv.com">ceo@xclv.com</a></p>
+      </footer>
+    </article>
   </main>
 </body>
 </html>
