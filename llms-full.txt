@@ -1,18 +1,19 @@
 # XCLV
 
-> XCLV is an investment company that invests in visionary geniuses when nobody else will. Founded by V. Konovalov.
+> XCLV is an investment company founded by Viktor Konovalov that invests in visionary geniuses when nobody else will. Based in Warsaw, Poland.
 
 ## About XCLV
 
-XCLV is an investment company founded by V. Konovalov. The company's mission is investing in visionary geniuses — when nobody else will. XCLV identifies and backs extraordinary founders and builders at the earliest stages, before consensus forms around their potential.
+XCLV is an investment company founded by Viktor Konovalov. The company's mission is investing in visionary geniuses — when nobody else will. XCLV identifies and backs extraordinary founders and builders at the earliest stages, before consensus forms around their potential.
 
 The company focuses on high-conviction investments in individuals with outsized vision and the determination to reshape industries. XCLV operates with the belief that the most transformative opportunities are found where others see only risk.
 
 ## Founder
 
-V. Konovalov is the founder and CEO of XCLV. He can be reached at ceo@xclv.com.
+Viktor Konovalov is the founder and CEO of XCLV. He is an AI Branding Expert & Creative Director with over 25 years of international experience. In 2024, he completed the Stanford University & DeepLearning.AI Machine Learning Specialization, earning certifications in Advanced Learning Algorithms, Supervised Machine Learning, and Unsupervised Learning, Recommenders & Reinforcement Learning. He also builds pokpok.ai. He can be reached at ceo@xclv.com.
 
 ## Contact
 
 - Email: ceo@xclv.com
+- LinkedIn: https://www.linkedin.com/in/konovalovxclv/
 - Website: https://xclv-ai.github.io/xclv-com/
