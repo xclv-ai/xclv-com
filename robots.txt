@@ -25,4 +25,4 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://xclv-ai.github.io/xclv-com/sitemap.xml
+Sitemap: https://xclv.com/sitemap.xml
